@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
         "projectName": "BusinessServices.Layer",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj"
+              "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj"
               },
-              "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj"
+              "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj",
         "projectName": "CommerceApi",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceApi\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,8 +91,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj"
+              "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj"
               }
             }
           }
@@ -145,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
         "projectName": "CommerceDb",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -216,14 +216,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj",
         "projectName": "DataAccess.Layer",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\DataAccess.Layer\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\DataAccess.Layer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -240,8 +240,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj"
+              "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj"
               }
             }
           }

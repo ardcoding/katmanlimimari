@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\KatmanlıMimari",
+    "\\KatmanlıMimari\\BusinessServices.Layer",
+    "\\KatmanlıMimari\\BusinessServices.Layer\\Concrete",
+    "\\KatmanlıMimari\\CommerceApi",
+    "\\KatmanlıMimari\\CommerceApi\\Controllers",
+    "\\KatmanlıMimari\\DataAccess.Layer",
+    "\\KatmanlıMimari\\DataAccess.Layer\\Concrete"
+  ],
+  "SelectedNode": "\\KatmanlıMimari\\DataAccess.Layer\\Concrete\\CustomerRepository.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -16,23 +16,23 @@ namespace BusinessServices.Layer.Concrete
         _repository = repository;
         }
 
-        public List<Customer> GetCustomers()
+        public async Task<List<Customer>> GetCustomers()
         {
-            return _repository.GetCustomers();
+            return await _repository.GetCustomers();
         }
-        public Customer AddCustomer(Customer customer)
+        public async Task<Customer> AddCustomer(Customer customer)
         {
-            return _repository.AddCustomer(customer);
-        }
-
-        public Customer UpdateCustomer(Customer customer)
-        {
-            return _repository.UpdateCustomer(customer);
+                return await _repository.AddCustomer(customer);
         }
 
-        public void DeleteCustomer(int id)
+        public async Task<Customer> UpdateCustomer(Customer customer)
         {
-            _repository.DeleteCustomer(id);
+            return await _repository.UpdateCustomer(customer);
+        }
+
+        public async Task DeleteCustomer(int id)
+        {
+            await _repository.DeleteCustomer(id);
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RelKhiZFJ1bwCW3VpMJ9yFhe/4BjJgt/fgQppxe5kg5Sw/B45NatFiJJgtGuHIWLONKeaWW8arbYG7SxlzPcfw==",
+  "dgSpecHash": "2CRDKRN49R34dzu3oi/PqTmDqZJhua0faZQHSs/AfFBCEg0G6eDY8Wm9ndYhIM5ynR75/g57uLRpHyWUW73ybw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -18,9 +18,9 @@ namespace CommerceApi.Controllers
             _customerBusiness = customerBusiness;
         }
         [HttpGet]
-        public List<Customer> GetCustomers()
+        public async Task<List<Customer>> GetCustomers()
         {
-            return _customerBusiness.GetCustomers();
+            return await _customerBusiness.GetCustomers();
         }
 
         [HttpPost("AddCustomer")]
@@ -36,8 +36,8 @@ namespace CommerceApi.Controllers
         }
 
         [HttpDelete("DeleteCustomer/{id}")]
-        public void DeleteCustomer(int id) { 
-            _customerBusiness.DeleteCustomer(id);
+        public async Task DeleteCustomer(int id) { 
+           await _customerBusiness.DeleteCustomer(id);
         }
     }
 }

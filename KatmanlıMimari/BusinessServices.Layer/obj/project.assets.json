@@ -3222,11 +3222,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
       "projectName": "BusinessServices.Layer",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3243,11 +3243,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj"
+            "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj"
+            "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\DataAccess.Layer\\DataAccess.Layer.csproj"
             }
           }
         }

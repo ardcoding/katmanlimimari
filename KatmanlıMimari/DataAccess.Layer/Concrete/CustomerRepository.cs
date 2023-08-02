@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CommerceDb.Entities;
 using DataAccess.Layer.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Layer.Concrete
 {
@@ -16,29 +17,29 @@ namespace DataAccess.Layer.Concrete
         {
             _dbcontext = dbcontext;
         }
-        public List<Customer> GetCustomers()
+        public async Task<List<Customer>> GetCustomers()
         {
-            return _dbcontext.Customers.ToList();
+            return await _dbcontext.Customers.ToListAsync();
         }
-        public Customer AddCustomer(Customer customer)
+        public async Task<Customer> AddCustomer(Customer customer)
         {
            _dbcontext.Customers.Add(customer);
-            _dbcontext.SaveChanges();
+           await _dbcontext.SaveChangesAsync();
             return customer;
         }
 
-        public Customer UpdateCustomer(Customer customer)
+        public async Task<Customer> UpdateCustomer(Customer customer)
         {
             _dbcontext.Customers.Update(customer);
-            _dbcontext.SaveChanges();
+            await _dbcontext.SaveChangesAsync();
             return customer;
         }
 
-        public void DeleteCustomer(int id)
+        public async Task DeleteCustomer(int id)
         {
-            var deletedCustomer = _dbcontext.Customers.Find(id);
+            var deletedCustomer = await _dbcontext.Customers.FindAsync(id);
             _dbcontext.Customers.Remove(deletedCustomer);
-            _dbcontext.SaveChanges();
+            await _dbcontext.SaveChangesAsync();
         }
     }
 }

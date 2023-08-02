@@ -3943,11 +3943,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj",
       "projectName": "CommerceApi",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceApi\\CommerceApi.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceApi\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3965,8 +3965,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj"
+            "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\BusinessServices.Layer\\BusinessServices.Layer.csproj"
             }
           }
         }

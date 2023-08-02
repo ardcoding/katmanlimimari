@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zGYaVmhKUpvXjfobf98dClXs/6y1pxFw9+mfram64m3MMJ4qnasa3GWqrW2Rhi738C8KH7d0GFzTWGv6nWx/WQ==",
+  "dgSpecHash": "cibN//z0rS2NO6Zj3I/A9N8XmP9eH5fcNZFaaT+f+CpNMenJVXY6TaxdJIR9tUOxgWhorJ4oosziuenaigYmGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

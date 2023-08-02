@@ -3467,11 +3467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
       "projectName": "CommerceDb",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\CommerceDb.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\KatmanlıMimari\\CommerceDb\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\katmanlimimari\\KatmanlıMimari\\CommerceDb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

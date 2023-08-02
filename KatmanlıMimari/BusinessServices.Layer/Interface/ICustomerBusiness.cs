@@ -9,9 +9,9 @@ namespace BusinessServices.Layer.Interface
 {
     public interface ICustomerBusiness
     {
-        List<Customer> GetCustomers();
-        Customer AddCustomer(Customer customer);
-        Customer UpdateCustomer(Customer customer);
-        void DeleteCustomer(int id);
+        Task<List<Customer>> GetCustomers();
+        Task<Customer> AddCustomer(Customer customer);
+        Task<Customer> UpdateCustomer(Customer customer);
+        Task DeleteCustomer(int id);
     }
 }
