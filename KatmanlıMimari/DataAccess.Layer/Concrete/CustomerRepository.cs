@@ -21,6 +21,14 @@ namespace DataAccess.Layer.Concrete
         {
             return await _dbcontext.Customers.ToListAsync();
         }
+        public async Task<Customer> GetCustomerById(int id)
+        {
+            return await _dbcontext.Customers.FindAsync(id);
+        }
+        public async Task<Customer> GetCustomerByName(string name)
+        {
+            return await _dbcontext.Customers.FirstOrDefaultAsync(u=>u.Name == name);
+        }
         public async Task<Customer> AddCustomer(Customer customer)
         {
            _dbcontext.Customers.Add(customer);

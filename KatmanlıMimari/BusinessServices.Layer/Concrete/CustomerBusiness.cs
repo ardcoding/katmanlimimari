@@ -20,19 +20,50 @@ namespace BusinessServices.Layer.Concrete
         {
             return await _repository.GetCustomers();
         }
+
+        public async Task<Customer> GetCustomerById(int id)
+        {
+            return await _repository.GetCustomerById(id);
+        }
+
+        public async Task<Customer> GetCustomerByName(string name)
+        {
+            return await _repository.GetCustomerByName(name);
+        }
+
         public async Task<Customer> AddCustomer(Customer customer)
         {
+            var hasCustomer = await _repository.GetCustomerByName(customer.Name);
+            if (hasCustomer == null && customer.Name.Length > 2)
+            {
                 return await _repository.AddCustomer(customer);
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public async Task<Customer> UpdateCustomer(Customer customer)
         {
-            return await _repository.UpdateCustomer(customer);
+            var updateableHasCustomer = await _repository.GetCustomerByName(customer.Name);
+            if (updateableHasCustomer != null)
+            {
+                return await _repository.UpdateCustomer(customer);
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public async Task DeleteCustomer(int id)
         {
-            await _repository.DeleteCustomer(id);
+            var deletableHasCustomer = await _repository.GetCustomerById(id);
+            if (deletableHasCustomer != null)
+            {
+                await _repository.DeleteCustomer(id);
+            }
         }
     }
 }

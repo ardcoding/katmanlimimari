@@ -22,7 +22,17 @@ namespace CommerceApi.Controllers
         {
             return await _customerBusiness.GetCustomers();
         }
+        [HttpGet("{id}")]
+        public async Task<Customer> GetCustomerById(int id)
+        {
+            return await _customerBusiness.GetCustomerById(id);
+        }
 
+        [HttpGet("ByName/{name}")]
+        public async Task<Customer> GetCustomerByName(string name)
+        {
+            return await _customerBusiness.GetCustomerByName(name);
+        }
         [HttpPost("AddCustomer")]
         public IActionResult AddCustomer([FromBody] Customer customer) 
         { 
