@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading.Channels;
 
 namespace BusinessServices.Layer.Concrete
 {
@@ -33,28 +34,31 @@ namespace BusinessServices.Layer.Concrete
 
         public async Task<Customer> AddCustomer(Customer customer)
         {
-            var hasCustomer = await _repository.GetCustomerByName(customer.Name);
-            if (hasCustomer == null && customer.Name.Length > 2)
+
+            if (customer.Name.Length > 2)
             {
                 return await _repository.AddCustomer(customer);
             }
             else
             {
-                return null;
+                throw new Exception();
             }
+            Console.WriteLine();
         }
 
         public async Task<Customer> UpdateCustomer(Customer customer)
         {
-            var updateableHasCustomer = await _repository.GetCustomerByName(customer.Name);
+            var updateableHasCustomer = await _repository.GetCustomerById(customer.Id);
             if (updateableHasCustomer != null)
             {
+                Console.WriteLine("a");
                 return await _repository.UpdateCustomer(customer);
             }
             else
             {
-                return null;
+                throw new Exception();
             }
+                
         }
 
         public async Task DeleteCustomer(int id)
