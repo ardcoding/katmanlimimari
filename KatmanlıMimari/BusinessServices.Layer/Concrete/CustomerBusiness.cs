@@ -43,7 +43,6 @@ namespace BusinessServices.Layer.Concrete
             {
                 throw new Exception();
             }
-            Console.WriteLine();
         }
 
         public async Task<Customer> UpdateCustomer(Customer customer)
@@ -51,7 +50,6 @@ namespace BusinessServices.Layer.Concrete
             var updateableHasCustomer = await _repository.GetCustomerById(customer.Id);
             if (updateableHasCustomer != null)
             {
-                Console.WriteLine("a");
                 return await _repository.UpdateCustomer(customer);
             }
             else
@@ -67,6 +65,10 @@ namespace BusinessServices.Layer.Concrete
             if (deletableHasCustomer != null)
             {
                 await _repository.DeleteCustomer(id);
+            }
+            else
+            {
+                throw new Exception();
             }
         }
     }
